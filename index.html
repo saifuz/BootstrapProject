@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Displaying Robot object">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script defer src="https://cdn.datatables.net/1.13.3/js/jquery.dataTables.min.js"></script>
+    <script defer src="https://cdn.datatables.net/1.13.3/js/dataTables.bootstrap5.min.js"></script>
+    <script defer src="js/script.js"></script>
+    <!-- <script defer src="js/robots.js"></script> -->
+    <script defer src="js/table.js"></script>
+
+    <title>Simple BootStrap APP</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Bootstrap App</h1>
+        <table id="example" class="table table-striped" style="width:100%">
+            <thead>
+                <tr>
+                    <th>Arbitrary ID</th>
+                    <th>Random percentage of battery life remaining</th>
+                    <th>Current y coordinate</th>
+                    <th>Current x coordinate</th>
+                </tr>
+            </thead>
+            <tbody id="data">
+            </tbody>
+
+        </table>
+    </div>
+</body>
+
+</html>
