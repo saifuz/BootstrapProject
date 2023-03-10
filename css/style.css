@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --dt-row-selected: 13, 110, 253;
     --dt-row-selected-text: 255, 255, 255;
     --dt-row-selected-link: 9, 10, 11
@@ -312,7 +312,7 @@ table.dataTable tbody td.dt-body-nowrap {
  * License: MIT datatables.net/license/mit
  */
 table.dataTable {
-    /* clear: both; */
+    clear: both;
     margin-top: 6px !important;
     margin-bottom: 6px !important;
     max-width: none !important;
@@ -520,3 +520,5 @@ div.table-responsive>div.dataTables_wrapper>div.row>div[class^=col-]:first-child
 div.table-responsive>div.dataTables_wrapper>div.row>div[class^=col-]:last-child {
     padding-right: 0
 }
+
+*/
